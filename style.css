@@ -1,0 +1,327 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+		padding: 0;
+		margin: 0;
+		border: 0;
+}
+
+*, *:before, *:after {
+		box-sizing: border-box;
+}
+
+:focus, :active {
+		outline: none;
+}
+
+a:focus, a:active {
+		outline: none;
+}
+
+nav, footer, header, aside {
+		display: block;
+}
+
+html, body {
+		height: 100%;
+		width: 100%;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 14px;
+		-ms-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+		font-family: inherit;
+}
+
+input::-ms-clear {
+		display: none;
+}
+
+button {
+		cursor: pointer;
+}
+
+button::-moz-focus-inner {
+		padding: 0;
+		border: 0;
+}
+
+a, a:visited {
+		text-decoration: none;
+}
+
+a:hover {
+		text-decoration: none;
+}
+
+ul li {
+		list-style: none;
+}
+
+img {
+		vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		font-size: inherit;
+		font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+		font-family: "Montserrat", sans-serif;
+		font-size: 17px;
+		background: #DCDCDC;
+}
+
+.container {
+		max-width: 1400px;
+		margin: 0 auto;
+}
+
+header {
+		color: #fff;
+		padding: 0 15px;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		background: rgba(0, 191, 255, 0.9);
+		margin: 0 0 30px;
+}
+header .logo {
+		font-size: 30px;
+		font-weight: 700;
+		position: relative;
+		top: 10px;
+}
+header nav {
+		text-align: right;
+}
+header span {
+		margin-left: 60px;
+		position: relative;
+		top: -12px;
+}
+header a {
+		color: #fff;
+		transition: 0.7s;
+}
+header a:hover {
+		color: #696969;
+}
+
+.game {
+		margin-top: 60px;
+		padding: 15px 15px;
+		border: 2px solid #000;
+		border-radius: 50px;
+		box-shadow: 1px 1px 10px #000;
+		background: #fff;
+}
+.game span {
+		font-weight: 700;
+		font-size: 20px;
+}
+
+h1 {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 70px;
+		margin: 50px 0 50px;
+		font-weight: 700;
+}
+
+h2 {
+		font-size: 40px;
+}
+
+.logoimg {
+		border-radius: 50%;
+}
+
+.game1 {
+		margin-bottom: 40px;
+}
+.game1 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game1 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game1 a:hover {
+		color: #696969;
+}
+
+.game2 {
+		margin-bottom: 40px;
+}
+.game2 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game2 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game2 a:hover {
+		color: #696969;
+}
+
+.game3 {
+		margin-bottom: 40px;
+}
+.game3 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game3 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game3 a:hover {
+		color: #696969;
+}
+
+.game4 {
+		margin-bottom: 40px;
+}
+.game4 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game4 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game4 a:hover {
+		color: #696969;
+}
+
+.game5 {
+		margin-bottom: 40px;
+}
+.game5 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game5 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game5 a:hover {
+		color: #696969;
+}
+
+.game6 {
+		margin-bottom: 40px;
+}
+.game6 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game6 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game6 a:hover {
+		color: #696969;
+}
+
+.game7 {
+		margin-bottom: 40px;
+}
+.game7 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game7 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game7 a:hover {
+		color: #696969;
+}
+
+.game8 {
+		margin-bottom: 40px;
+}
+.game8 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game8 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game8 a:hover {
+		color: #696969;
+}
+
+.game9 {
+		margin-bottom: 40px;
+}
+.game9 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game9 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game9 a:hover {
+		color: #696969;
+}
+
+.game10 {
+		margin-bottom: 40px;
+}
+.game10 img {
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-right: 50px;
+		margin-bottom: 30px;
+}
+.game10 a {
+		color: #000;
+		transition: 0.3s;
+}
+.game10 a:hover {
+		color: #696969;
+}
+
+footer {
+		background-color: #696969;
+		color: #fff;
+		max-width: 100%;
+}
+footer a {
+		color: #fff;
+		transition: 0.3s;
+}
+footer a:hover {
+		color: #000;
+}
